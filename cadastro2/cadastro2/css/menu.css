@@ -1,0 +1,169 @@
+p	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color: #fff !important;
+}
+
+body {
+  background:#2c3e50 !important;
+}
+
+#menu-bar {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    width: 83%;
+    float: right;
+    margin: 15px 205px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    margin-top: 15px;
+    margin-top: 15px;
+    display: inline-block;
+    line-height: 51px;
+    margin-bottom: 42px;
+}
+
+
+
+
+#menu-bar li {
+  margin: 0px 0px 6px 0px;
+  padding: 0px 6px 0px 6px;
+  float: left;
+  position: relative;
+  list-style: none;
+}
+#menu-bar a {
+
+    font-weight: none;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px 6px 20px;
+    margin: 0;
+        margin-bottom: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 6px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    text-shadow: 0px 0px 0px #000000;
+    text-transform: uppercase;
+
+}
+#menu-bar li ul li a {
+  margin: 0;
+}
+#menu-bar .active a, #menu-bar li:hover > a {
+
+  color: #c3c3c3;;
+
+}
+#menu-bar ul li:hover a, #menu-bar li:hover li a {
+  background: none;
+  border: none;
+  color: #666;
+  -box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+#menu-bar ul a:hover {
+  background: #c3c3c3 !important;
+  color: #FFFFFF !important;
+
+
+}
+#menu-bar li:hover > ul {
+  display: block;
+}
+#menu-bar ul {
+    background: #DDDDDD;
+    background: linear-gradient(top, #FFFFFF, #CFCFCF);
+    background: -ms-linear-gradient(top, #FFFFFF, #CFCFCF);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CFCFCF));
+    background: -moz-linear-gradient(top, #FFFFFF, #CFCFCF);
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 184px;
+    position: absolute;
+    top: 62px;
+    left: 26px;
+    border: solid 0px #B4B4B4;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-box-shadow: 0px 0px 0px #222222;
+    -moz-box-shadow: 0px 0px 0px #222222;
+    box-shadow: 0px 0px 0px #222222;
+    line-height: 21px;
+	z-index: 999;
+}
+#menu-bar ul li {
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+#menu-bar ul a {
+  padding:10px 0px 10px 15px;
+  color:#424242 !important;
+  font-size:12px;
+  font-style:normal;
+  font-family:arial;
+  font-weight: normal;
+  text-shadow: 2px 2px 3px #FFFFFF;
+}
+#menu-bar ul li:first-child > a {
+    border-top-left-radius: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    border-top-right-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -moz-border-radius-topright: 0px;
+}
+#menu-bar ul li:last-child > a {
+  border-bottom-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+}
+#menu-bar:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#menu-bar {
+  display: inline-block;
+}
+  html[xmlns] #menu-bar {
+  display: block;
+}
+* html #menu-bar {
+  height: 1%;
+}
+#logoP {
+    width: 200px;
+    float: left;
+    height: 100px;
+    margin: -72px -14px;
+}
+
+#menu-item-1 {
+    background: url('http://intranet.nunesegrossi.com.br/cadastro2/logo2.png') no-repeat;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto auto;
+    background-size: 90%;
+    background-position-x: 0px;
+    height: 68px;
+    width: 273px;
+    text-indent: -99999px;
+    background-position-y: -46px;

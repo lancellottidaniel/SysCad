@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+	  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+		
+</head>
+
+<body>
+<div id="logo" style="height:150px">
+	<img src="http://intranet.nunesegrossi.com.br/cadastro2/imagens/2---Logo_N&G_Benef_horizontal_Branco.png" alt="Nunes & Grossi" style="position:static; height:250px; width:350px">
+</div>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<form action="http://intranet.nunesegrossi.com.br/cadastro2/index.php" method="post">
+
+  <h4> Informações de login </h4>
+  <input class="name" type="text" name="login" placeholder="Usuário"/>
+  <input class="pw" type="password" name="senha_usuario" placeholder="Senha"/>
+  <input class="button" type="submit" value="Log in"/>
+  
+  <?php if ( ! empty( $_SESSION['login_erro'] ) ) :?>
+            <tr>
+                <td style="color: red;"><?php echo $_SESSION['login_erro'];?></td>
+                <?php $_SESSION['login_erro'] = ''; ?>
+            </tr>
+        <?php endif; ?>
+		
+		<div style="margin-left: 176px;margin-top: 40px;color: #7f8c8d;text-shadow: 1px 1px 0px white;font-family: 'Source Sans Pro', sans-serif;">SysCAD</div>
+		<div style="margin-right: 187px;margin-top: 29px;color: #7f8c8d;text-shadow: 1px 1px 0px white;font-family: 'Source Sans Pro', sans-serif;width: 185px;font-size: small;">Desenvolvido por: Nunes & Grossi</div>
+  
+</form>
+  
+  
+</body>
+</html>
